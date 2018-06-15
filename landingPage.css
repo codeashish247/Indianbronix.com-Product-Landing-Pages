@@ -1,0 +1,28 @@
+section{
+	padding-top: 75px;
+}
+
+#Heading{
+	text-align: center;
+	letter-spacing: 2px;
+	font-family: 'Source Code Pro', monospace;
+	padding-bottom: 25px;
+}
+
+.minor{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 15px;
+}
+
+body{
+	background-color: f4f4f4;
+}
+
+.category{
+	padding-top: 60px;
+}
+
+.singleCat{
+	padding-left: 60px;
+}
