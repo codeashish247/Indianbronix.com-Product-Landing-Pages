@@ -1,28 +1,118 @@
 section{
-	padding-top: 75px;
-}
-
-#Heading{
-	text-align: center;
-	letter-spacing: 2px;
-	font-family: 'Source Code Pro', monospace;
-	padding-bottom: 25px;
-}
-
-.minor{
-	padding-bottom: 5px;
-	padding-top: 5px;
-	padding-left: 15px;
+	padding-top: 70px;
+	margin: 0 auto;
 }
 
 body{
-	background-color: f4f4f4;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	align-content: center;
 }
 
-.category{
-	padding-top: 60px;
+.card-text{
+	letter-spacing: 5px;
 }
 
-.singleCat{
-	padding-left: 60px;
+.featImg{
+	transition: transform .2s;
 }
+
+.featImg:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+
+#overlayImage1{
+	position: absolute;
+	top: 70px;
+	right: 0px;
+}
+
+#overlayImage2{
+	position: absolute;
+	top: 60px;
+	left: 90px;
+}
+
+.containerOff{
+	position: relative;
+}
+
+.textOff1{
+	position: absolute;
+	top: 15px;
+	left: 25px;	
+	text-decoration: underline overline;
+	text-underline-position: under;
+	letter-spacing: 2px;
+	font-size: 15px;
+}
+
+
+
+.textOff2{
+	position: absolute;
+	left: 25px;
+	top: 50px;
+	width: 200px;
+	text-align: left;
+	font-size: 30px;
+}
+
+.textOff3{
+	position: absolute;
+	left: 25px;
+	bottom: 20px;
+	font-size: 15px;
+	bottom: 0px;
+	width: 200px;
+	letter-spacing: 3px;
+	text-align: left;
+}
+
+.containerOff:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+#container{
+	position: relative;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
