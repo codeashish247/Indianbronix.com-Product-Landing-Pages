@@ -1,0 +1,170 @@
+.container{
+	width: 100%;
+}
+
+section{
+	padding-top: 70px;
+	margin: 0 auto;
+}
+
+body{
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	align-content: center;
+}
+
+.card-text{
+	letter-spacing: 5px;
+}
+
+.featImg{
+	transition: transform .2s;
+}
+
+.featImg:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 992px) { 
+#overlayImage1{
+	position: absolute;
+	display: none;
+}
+#overlayImage2{
+	position: absolute;
+	display: none;
+} 
+}
+
+#overlayImage1{
+	position: absolute;
+	top: 70px;
+	right: 0px;
+}
+
+#overlayImage2{
+	position: absolute;
+	top: 60px;
+	left: 90px;
+}
+
+#mainImage{
+	position: relative;
+}
+
+.containerOff{
+	position: relative;
+}
+
+.textOff1{
+	position: absolute;
+	top: 15px;
+	left: 25px;	
+	text-decoration: underline overline;
+	text-underline-position: under;
+	letter-spacing: 2px;
+	font-size: 15px;
+}
+
+.subsSec{
+	margin: 5px 10px;
+}
+
+input[type="text"], input[type="email"]
+{
+   font-family: 'Chonburi', cursive;
+   text-align: center;
+}
+
+
+
+.textOff2{
+	position: absolute;
+	left: 25px;
+	top: 50px;
+	width: 200px;
+	text-align: left;
+	font-size: 30px;
+}
+
+.textOff3{
+	position: absolute;
+	left: 25px;
+	bottom: 20px;
+	font-size: 15px;
+	bottom: 0px;
+	width: 200px;
+	letter-spacing: 3px;
+	text-align: left;
+}
+
+.containerOff:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+#container{
+	position: relative;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
+
+#newsLetterCont{
+	background-color: #757575;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	color: white;
+	padding-top: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col"] {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
